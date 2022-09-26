@@ -32,15 +32,17 @@ hamburgerA.forEach( function(element) {
 })
 
 
-if(window.innerWidth < 768) {
+if(window.innerWidth < 769) {
   // スライド-過去の大感謝祭のようす
   new Splide( '.splide.about_splide', {
     pagination:false,
+    autoplay:true,
+    type : 'loop',
+    speed: 600,
     arrows:false,
     gap: '18px',
     perPage: 1.5,
     focus: 'center',
-    start: number = 1
   }).mount();
 
   // スライド-企画紹介
