@@ -31,39 +31,33 @@ hamburgerA.forEach( function(element) {
   })
 })
 
-// スライド-過去の大感謝祭のようす
-new Splide( '.splide.about_splide', {
-  autoplay:true,
-  type : 'loop',
-  speed: 600,
-  perPage: 4,
-  gap: '18px',
-  pagination:false,
-  arrows:false,
-  breakpoints: {
-  767: {
+
+if(window.innerWidth < 768) {
+  // スライド-過去の大感謝祭のようす
+  new Splide( '.splide.about_splide', {
+    pagination:false,
+    arrows:false,
+    gap: '18px',
     perPage: 1.5,
     focus: 'center',
-  },
-}
-}).mount();
+    start: number = 1
+  }).mount();
 
-// スライド-企画紹介
-new Splide( '.splide.project_box', {
-  perPage: 3,
-  pagination:false,
-  arrows:false,
-  gap: '18px',
-  breakpoints: {
-  767: {
+  // スライド-企画紹介
+  new Splide( '.splide.project_box', {
+    pagination:false,
+    arrows:false,
+    gap: '18px',
     perPage: 1.5,
     focus: 'center',
     autoplay:false,
     rewind:false,
     start: number = 1
-  },
+  }).mount();
+} else {
+  //pc
 }
-}).mount();
+
 
 
 
