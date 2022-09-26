@@ -474,6 +474,15 @@ button:hover{
 .splide img{
   width: 100%;
 }
+@media screen and (min-width:769px){
+  .splide__list{
+    display: flex;
+    justify-content: space-between;
+  }
+  #about .splide .splide__slide{
+    width: 24%;
+  }
+}
 @media screen and (max-width:768px){
   .splide{
     margin: 0 -20px;
