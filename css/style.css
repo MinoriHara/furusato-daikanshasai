@@ -1119,12 +1119,20 @@ footer{
   color: #0079b5;
   margin: 5px 0 20px;
 }
+.modal_box_g dl dd a:hover{
+  text-decoration: none;
+}
 .red_txt{
   margin: 10px;
   color: #ad0003;
   text-align: left;
   line-height: 140%;
   font-size: 13px;
+}
+.preparation{
+  font-weight: 600;
+  padding-top: 20px;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .modal-content{
@@ -1162,6 +1170,9 @@ footer{
   .modal_box_g dl dd{
     margin-bottom: 10px;
     font-size: 13px;
+  }
+  .preparation{
+    margin-bottom: 40px;
   }
 }
 
