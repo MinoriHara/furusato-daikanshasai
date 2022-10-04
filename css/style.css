@@ -98,6 +98,9 @@ button:hover{
 .mb-20{
   margin-bottom: 20px;
 }
+.mt-100{
+  margin-top: 100px;
+}
 @media screen and (min-width:769px){
   body .onlysp{display:none!important}
 }
@@ -114,6 +117,9 @@ sup {
 .come_txt{
   font-size: 70%;
   text-align: right;
+}
+.text_red{
+  color:#ad0003;
 }
 
 /* menu */
@@ -363,9 +369,9 @@ sup {
 
 /* common */
 .box_inner{
-  max-width:1072px;
+  max-width:1112px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px 20px;
 }
 .bg_red{
   background-color:#ad0003;
@@ -418,6 +424,12 @@ sup {
   max-width: 300px;
   width: 100%;
 }
+.ttle_w .ttl_p_txt{
+  padding-top: 20px;
+}
+.bg_blue .ttle_w .ttl_p_txt{
+  color: #fff;
+}
 .ttl_h3{
   font-size: 24px;
   margin: 42px 0 30px;
@@ -425,15 +437,24 @@ sup {
   letter-spacing: .1rem;
   text-align: center;
 }
+#about .ttl_img img{
+  max-width: 450px;
+}
+#about .ttl_en{
+  margin-top: 10px;
+}
 @media screen and (max-width:768px){
   .ttle_w{
     margin-bottom: 40px;
   }
-  .ttl_en{
+  .ttl_en,#about .ttl_en{
     margin:0 30px;
   }
   .ttl_h3{
     font-size: 18px;
+  }
+  #about .ttl_img img{
+    max-width: 90%;
   }
 }
 
@@ -508,6 +529,7 @@ sup {
 /* splide */
 .splide img{
   width: 100%;
+  border-radius: 20px;
 }
 @media screen and (min-width:769px){
   .splide__list{
@@ -1179,22 +1201,29 @@ footer{
 
 
 /* guidence_ul */
-.guidence_ul{
+.guidence_w{
   background-color:#f5f5f5;
-  padding: 30px 50px;
+  padding: 40px 50px 10px;
   text-align: left;
   border-radius: 10px;
   margin-top: 30px;
 }
+.guidence_w h3{
+  font-weight: 600;
+}
+.guidence_ul {
+  padding-bottom: 30px;
+}
 .guidence_ul li{
   border-bottom: solid 1px #dddddd;
-  padding: 18px;
+  padding: 18px 10px;
 }
-.guidence_ul li:last-child{
-  border-bottom: none;
+.guidence_ul li li{
+  border: none;
+  padding: 2px 0 2px 15px;
 }
 @media screen and (max-width: 768px) {
-  .guidence_ul{
+  .guidence_w{
     padding: 20px 15px;
     font-size: 14px;
   }
@@ -1280,7 +1309,7 @@ footer{
   text-align:left;
   margin-bottom: 60px;
 }
-.img_txt_w img{
+.img_txt_w .img_w{
   width: 30%;
 }
 .img_txt_w .txt_w{
@@ -1385,11 +1414,11 @@ ol.terms_ol  li::before {
   .img_txt_w{
     display: block;
   }
-  .img_txt_w img{
+  .img_txt_w .img_w{
     margin-bottom: 20px;
   }
 
-  .img_txt_w img,.img_txt_w .txt_w{
+  .img_txt_w .img_w,.img_txt_w .txt_w{
     width: 100%;
   }
 }
