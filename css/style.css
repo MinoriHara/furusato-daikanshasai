@@ -746,6 +746,9 @@ sup {
     border-top: 2px solid #fff;
     border-right: 2px solid #fff;
 }
+body.modal_open{
+  overflow: hidden;
+}
 
 
 
@@ -1082,7 +1085,7 @@ footer{
 }
 .modal-content {
     background: #FFF;
-    overflow-y: auto;
+    overflow-y: clip;
     padding: 60px 30px;
     width: 90%;
     height: 80%;
@@ -1091,9 +1094,11 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*max-height: 400px;*/
     animation: show 0.5s linear 0s;
     filter: drop-shadow(0px 2px 6px #000000);
+}
+.modal-content.modal_scroll{
+    overflow-y: auto;
 }
 .modal-top {
     display: inline-block;
