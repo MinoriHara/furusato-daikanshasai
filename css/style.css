@@ -425,10 +425,19 @@ sup {
   width: 100%;
 }
 .ttle_w .ttl_p_txt{
-  padding-top: 20px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+.ttle_w .ttl_p_txt span{
+  font-weight: 600;
 }
 .bg_blue .ttle_w .ttl_p_txt{
   color: #fff;
+  font-size: 110%;
+  line-height: 120%;
+}
+.bg_blue .ttle_w .ttl_en{
+  margin-top: 0;
 }
 .ttl_h3{
   font-size: 24px;
@@ -455,6 +464,9 @@ sup {
   }
   #about .ttl_img img{
     max-width: 90%;
+  }
+  .bg_blue .ttle_w .ttl_p_txt{
+    font-size:14px
   }
 }
 
@@ -703,6 +715,7 @@ sup {
 }
 .btn_gw{
   margin:40px 0 0;
+  text-align: center;
 }
 .btn_gw .modal-toggle{
   display: inline-block;
@@ -832,7 +845,7 @@ sup {
 }*/
 footer{
   padding-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 0;
   position:relative;
   background-color:#f5f4f0;
 }
@@ -877,7 +890,7 @@ footer{
   font-size: 14px;
 }*/
 .footer_bottom{
-  margin-top: 80px;
+  margin-top: 45px;
   width: 100%;
   text-align: center;
   color: #000;
@@ -904,7 +917,7 @@ footer{
     padding: 20px 0 400px
   }*/
   .footer{
-    padding: 20px 0 20px
+    padding: 20px 0 0;
   }
   .footer .btn_application{
     margin-bottom: 20px;
@@ -912,7 +925,7 @@ footer{
   .footer_bottom{
     bottom: 10px;
     font-size: 12px;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .footer-copyright{
     line-height: 140%;
@@ -1329,6 +1342,7 @@ footer{
 }
 .img_txt_w .img_w{
   width: 30%;
+  text-align: center;
 }
 .img_txt_w .txt_w{
   width: 67%;
