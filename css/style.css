@@ -436,9 +436,6 @@ sup {
   font-size: 110%;
   line-height: 120%;
 }
-.bg_blue .ttle_w .ttl_en{
-  margin-top: 0;
-}
 .ttl_h3{
   font-size: 24px;
   margin: 42px 0 30px;
@@ -859,7 +856,7 @@ footer{
     max-width:210px;
   }
 }
-@media screen and (min-width: 1440px) {
+/*@media screen and (min-width: 1440px) {
   footer{
   padding-bottom: 500px;
   }
@@ -873,7 +870,7 @@ footer{
   footer{
   padding-bottom: 750px;
   }
-}
+}*/
 .footer .btn_application:hover{
   background-color:#c0a75b;
 }
