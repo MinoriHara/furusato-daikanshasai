@@ -820,7 +820,7 @@ sup {
 
 
 /*footer*/
-footer{
+/*footer{
   padding-top: 100px;
   padding-bottom: 400px;
   background-image: url("../img/footer_bg.png");
@@ -829,6 +829,12 @@ footer{
   background-color:#f5f4f0;
   background-size: 100% auto;
   position:relative;
+}*/
+footer{
+  padding-top: 100px;
+  padding-bottom: 30px;
+  position:relative;
+  background-color:#f5f4f0;
 }
 @media screen and (min-width: 769px) {
   .footer .btn_application{
@@ -862,19 +868,27 @@ footer{
   width: 310px;
   margin: 0 auto;
 }
-.footer_bottom{
+/*.footer_bottom{
   position: absolute;
   bottom: 20px;
   width: 100%;
   text-align: center;
   color: #fff;
   font-size: 14px;
+}*/
+.footer_bottom{
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
 }
 .footer_bottom .footer-item{
   display: inline-block;
 }
 .footer_bottom .footer-item a{
-  color: #fff;
+  /*color: #fff;*/
+  color: #000;
   text-decoration: none;
 }
 .footer_bottom .footer-item a:hover{
@@ -885,9 +899,12 @@ footer{
     width: 70%;
     max-width: 300px;
   }
-  .footer{
+  /*.footer{
     background-image: url("../img/footer_bg_sp.png");
     padding: 20px 0 400px
+  }*/
+  .footer{
+    padding: 20px 0 20px
   }
   .footer .btn_application{
     margin-bottom: 20px;
@@ -895,16 +912,17 @@ footer{
   .footer_bottom{
     bottom: 10px;
     font-size: 12px;
+    margin-top: 50px;
   }
   .footer-copyright{
     line-height: 140%;
   }
 }
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .footer{
     padding: 20px 0 250px
   }
-}
+}*/
 
 
 /* follow us */
