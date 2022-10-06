@@ -5,8 +5,9 @@ modalBtns.forEach(function (btn) {
     document.getElementById(modal).style.display = "block";
     const selector = document.querySelector(".home");
     selector.classList.add("modal_open");
-    const scroll = document.getElementById(modal).querySelector(".modal-content");
-    scroll.classList.add("modal_scroll");
+    var element = document.getElementById(modal).querySelector(".modal_scroll");
+    element.scrollIntoView(false);
+    element.scrollTo(0, 0);
   };
 });
 const closeBtns = document.querySelectorAll(".modal-close");
@@ -16,9 +17,6 @@ closeBtns.forEach(function (btn) {
     modal.style.display = "none";
     const selector = document.querySelector(".home");
     selector.classList.remove("modal_open");
-    const scroll = event.target.querySelector(".modal-content");
-    scroll.classList.remove("modal_scroll");
-    document.getElementsByClassName("modal-content").scrollTop = 0;
   };
 });
 window.onclick = function (event) {
@@ -26,8 +24,5 @@ window.onclick = function (event) {
     event.target.style.display = "none";
     const selector = document.querySelector(".home");
     selector.classList.remove("modal_open");
-    const scroll = event.target.querySelector(".modal-content");
-    scroll.classList.remove("modal_scroll");
-    document.getElementsByClassName("modal-content").scrollTop = 0;
   }
 };
