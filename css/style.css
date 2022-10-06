@@ -1085,7 +1085,7 @@ footer{
 }
 .modal-content {
     background: #FFF;
-    overflow-y: clip;
+    overflow-y: auto;
     padding: 60px 30px;
     width: 90%;
     height: 80%;
@@ -1096,9 +1096,6 @@ footer{
     transform: translate(-50%, -50%);
     animation: show 0.5s linear 0s;
     filter: drop-shadow(0px 2px 6px #000000);
-}
-.modal-content.modal_scroll{
-    overflow-y: auto;
 }
 .modal-top {
     display: inline-block;
