@@ -310,6 +310,7 @@ sup {
     padding: 20px;
     display: block;
     text-decoration: none;
+    border: none;
   }
   .menu-content .nav{
     width: 100%;
