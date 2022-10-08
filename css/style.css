@@ -98,6 +98,9 @@ button:hover{
 .mb-20{
   margin-bottom: 20px;
 }
+.mt-40{
+  margin-top: 40px;
+}
 .mt-100{
   margin-top: 100px;
 }
@@ -495,7 +498,7 @@ sup {
   width: 19%;
 }
 .main_logo{
-  margin: -100px 0 0;
+  margin: -12% 0 0;
   padding-bottom: 100px;
   text-align: center;
 }
@@ -513,7 +516,7 @@ sup {
     text-align: center;
   }
   .main_logo{
-    margin-top: -60px;
+    margin-top: -20%;
     padding-bottom: 0;
   }
 }
@@ -716,7 +719,7 @@ sup {
   margin:40px 0 0;
   text-align: center;
 }
-.btn_gw .modal-toggle{
+.btn_gw .modal-toggle,.btn_gw a{
   display: inline-block;
   text-decoration: none;
   padding: 10px 35px 10px 20px;
@@ -728,11 +731,11 @@ sup {
   cursor: pointer;
   transition: all 0.4s ease 0s;
 }
-.btn_gw .modal-toggle:hover{
+.btn_gw .modal-toggle:hover,.btn_gw a:hover{
   background-color: #ad0003;
   color: #fff;
 }
-.btn_gw .modal-toggle::before {
+.btn_gw .modal-toggle::before,.btn_gw a::before {
     content: "";
     width: 10px;
     height: 10px;
@@ -744,7 +747,7 @@ sup {
     transform: rotate(45deg);
     border-radius: 1px;
 }
-.btn_gw .modal-toggle:hover::before {
+.btn_gw .modal-toggle:hover::before,.btn_gw a:hover::before {
     border-top: 2px solid #fff;
     border-right: 2px solid #fff;
 }
