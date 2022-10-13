@@ -549,6 +549,7 @@ sup {
   .splide__list{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   #about .splide .splide__slide{
     width: 24%;
