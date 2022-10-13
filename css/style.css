@@ -159,7 +159,7 @@ sup {
   .nav{
     background-color: #ad0003;
     padding: 0 0 0 20px;
-    height:60px;
+    height:61px;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -1348,6 +1348,9 @@ footer{
 .img_txt_w .img_w{
   width: 30%;
   text-align: center;
+}
+.img_txt_w .img_w img{
+  border-radius: 20px;
 }
 .img_txt_w .txt_w{
   width: 67%;
