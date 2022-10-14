@@ -376,7 +376,6 @@ sup {
   max-width:1112px;
   margin: 0 auto;
   padding: 100px 20px;
-  display: block;
 }
 .bg_red{
   background-color:#ad0003;
@@ -563,10 +562,6 @@ sup {
 
 
 /* project_box */
-.project_box{
-  display: flex;
-  justify-content: space-between;
-}
 .project_box .box_g{
   width:32%;
   background-color: #fff;
