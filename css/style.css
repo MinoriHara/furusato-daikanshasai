@@ -631,12 +631,12 @@ sup {
   background-color: #f5f4f0;
 }  
 .time_table .table_time{
-  border-top: solid 2px #c2b9b4;
+  border-bottom: solid 2px #c2b9b4;
   min-height: 100px;
   padding: 40px 10px;
 }
-.time_table tr:last-child .table_time{
-  border-bottom: solid 2px #c2b9b4;
+.time_table .table_time.first_table_time{
+  border-top: solid 2px #c2b9b4;
 }
 .time_table td{
   background-color: #fff;
