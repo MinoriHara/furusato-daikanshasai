@@ -641,7 +641,7 @@ sup {
 .time_table td{
   background-color: #fff;
   padding: 10px;
-  border-bottom: dashed 1px #c2b9b4;
+  border-bottom: dotted 2px #c2b9b4;
 }
 .time_table tr:last-child td{
   border-radius: 0 0 10px 10px;
